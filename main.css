@@ -1,0 +1,300 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background: #0F0B30;
+    color: #fff;
+    
+}
+html{
+    font-size: 20px;
+    line-height: 30;
+    color: #fff;
+}
+
+@media (min-width: 1400px) {
+    .container-xxl, .container-xl, .container-lg, .container-md, .container-sm, .container {
+      max-width: 1390px;
+    }
+  }
+
+.mb150{
+    margin-bottom: 150px;
+}
+
+.w50{
+    max-width: calc(50% - 15px);
+}
+
+.w100{
+    max-width: 100%;
+}
+
+.w500{
+    max-width: 500px;
+}
+
+.w640{
+    max-width: 640px;
+}
+
+.vr{
+    width: 3px;
+    margin-right: 60px;
+}
+
+header{
+    background: url(img/bg-header.png) no-repeat;
+    background-size: 100% 100%;
+    height: 100vh;
+}
+
+.navbar{
+    padding:26px 90px 0px;
+}
+
+.btn-gradient{
+position: relative;
+}
+
+.btn-gradient::before {
+    content:"";
+    position:absolute;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    border-radius:50px; 
+    padding:2px; 
+    background:linear-gradient(90deg, #00F0FF 0%, #5773FF 46.87%, #FF007A 100%); 
+    -webkit-mask: 
+       linear-gradient(#fff 0 0) content-box, 
+       linear-gradient(#fff 0 0);
+    -webkit-mask-composite: xor;
+            mask-composite: exclude; 
+  }
+
+.intro-gradient{
+    position: relative;
+    top: -10px;
+    font-weight: 700;
+    font-size: 98.2924px;
+    line-height: 147px;
+}
+
+.text-gradient{
+    
+    background: linear-gradient(90deg, #00F0FF 0%, #5773FF 46.87%, #FF007A 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+}
+
+.h2Title{
+    font-size: 3rem;
+    line-height: 4.5rem;
+    font-weight: 700;
+}
+
+.intro{
+    padding: 145px 0 320px;
+}
+
+.intro p{
+    max-width: 600px;
+    margin-bottom: 25px;
+}
+
+.intro a, .f-left a{
+    padding: 15px 55px;
+}
+
+.arrow-down{
+    margin-top: 125px;
+}
+
+.robot{
+    max-width: 570px;
+}
+
+#main h2{
+    padding-left: 85px;
+}
+
+#explore .container{
+    padding: 0;
+    
+}
+
+.feature-card{
+    max-width: 450px;
+    min-width: 350px;
+    padding: 80px 50px;
+}
+
+.feature-card{
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 48px;
+}
+
+.feature-card img{
+    margin-bottom: 10px;
+}
+
+.introduce-p{
+    font-size: 32px;
+    line-height: 48px;
+}
+
+.divvideo{
+    margin: 80px auto 150px;
+    overflow: hidden;
+}
+
+.video{
+    max-width: 100%;
+    overflow: hidden;
+}
+
+.divvideo{
+    position: relative;
+    overflow: hidden;
+    border-radius:50px; 
+}
+    
+.divvideo::before {
+    content:"";
+    position:absolute;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    border-radius:50px; 
+    padding:2px; 
+    background:linear-gradient(90deg, #00F0FF 0%, #5773FF 46.87%, #FF007A 100%); 
+    -webkit-mask: 
+        linear-gradient(#fff 0 0) content-box, 
+        linear-gradient(#fff 0 0);
+        -webkit-mask-composite: xor;
+        mask-composite: exclude; 
+}
+
+.learnMore{
+    padding: 15px 55px;
+    font-size: 27.1328px;
+    line-height: 41px;
+    font-weight: 700;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.interface_left{
+    max-width: 660px;
+}
+
+.increase{
+    padding: 90px 115px;
+}
+
+.increase h2{
+    margin-bottom: 30px;
+}
+
+.increase p{
+    margin-bottom: 45px;
+    max-width: 890px;
+}
+
+.reviewer img{
+    width: 45px;
+    height: 45px;
+    margin-right: 18px;
+}
+
+.name{
+    font-weight: 700;
+    font-size: 21.3641px;
+    line-height: 32px;
+}
+
+.job{
+    font-size: 12.0173px;
+    line-height: 18px;
+}
+
+.reviewerName p{
+    margin-bottom: 0;
+}
+
+.reviewCard{
+    padding: 50px 45px 40px;
+    max-width: 450px;
+    margin-bottom: 25px;
+}
+
+.reviewCard p{
+    font-size: 16.0231px;
+    line-height: 24px;
+}
+
+#contactUs{
+    max-width: 1120px;
+    margin-bottom: 165px;
+
+}
+
+input, textarea{
+    background-color: transparent;
+    border: none;
+    padding: 25px 45px;
+    font-size: 16.9122px;
+    line-height: 21px;
+    color: #FAFAFA;
+}
+
+button{
+    padding: 15px 95px;
+    background-color: transparent;
+    border: none;
+    font-size: 16.9122px;
+    line-height: 21px;
+    color: #FAFAFA;
+}
+
+textarea:focus, input:focus{
+    outline: none;
+}
+
+footer{
+    background-color: #1B173A;
+
+} 
+
+.socials a{
+   padding: 0;
+   padding-right: 20px;
+}
+
+.f-right a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.card{
+    background-color: transparent;
+    border: none;
+}
+
+footer h4{
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+a span{
+    padding-left: 15px;
+}
