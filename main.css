@@ -78,8 +78,8 @@ position: relative;
     position: relative;
     top: -10px;
     font-weight: 700;
-    font-size: 98.2924px;
-    line-height: 147px;
+    padding: 55px 0;
+    
 }
 
 .text-gradient{
@@ -192,10 +192,6 @@ position: relative;
     text-decoration: none;
 }
 
-.interface_left{
-    max-width: 660px;
-}
-
 .increase{
     padding: 90px 115px;
 }
@@ -233,7 +229,7 @@ position: relative;
 .reviewCard{
     padding: 50px 45px 40px;
     max-width: 450px;
-    margin-bottom: 25px;
+    /* margin-bottom: 25px; */
 }
 
 .reviewCard p{
